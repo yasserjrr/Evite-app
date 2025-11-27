@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.evite"
+    namespace = "com.evite"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.evite"
+        applicationId = "com.evite"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -57,4 +57,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    implementation("androidx.navigation:navigation-compose:2.8.0")
+    implementation("androidx.compose.material:material-icons-extended:1.6.0")
 }

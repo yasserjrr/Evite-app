@@ -1,0 +1,32 @@
+Evite-app/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/evite/         # Main Source Code
+│   │   │   │   ├── MainActivity.kt      # App entry point
+│   │   │   │   ├── di/                  # [Empty] Dependency Injection
+│   │   │   │   ├── data/                # [Empty] Data layer
+│   │   │   │   ├── domain/              # [Empty] Domain layer
+│   │   │   │   ├── ui/
+│   │   │   │   │   ├── auth/
+│   │   │   │   │   │   ├── LoginScreen.kt
+│   │   │   │   │   │   └── RegisterScreen.kt
+│   │   │   │   │   ├── components/
+│   │   │   │   │   │   ├── EviteButton.kt
+│   │   │   │   │   │   └── EviteTextField.kt
+│   │   │   │   │   ├── navigation/
+│   │   │   │   │   │   └── NavGraph.kt
+│   │   │   │   │   ├── theme/
+│   │   │   │   │   │   ├── Color.kt
+│   │   │   │   │   │   ├── Theme.kt
+│   │   │   │   │   │   └── Type.kt
+│   │   │   │   │   ├── home/            # [Empty]
+│   │   │   │   │   ├── events/          # [Empty]
+│   │   │   │   │   └── profile/         # [Empty]
+│   │   │   └── res/                     # Resources
+│   └── build.gradle.kts                 # Module configuration
+├── gradle/                              # Gradle wrapper & libs
+├── build.gradle.kts                     # Project configuration
+├── settings.gradle.kts                  # Settings
+├── ARCHITECTURE.md                      # Architecture documentation
+└── README.md                            # Project documentation
